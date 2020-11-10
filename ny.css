@@ -1,0 +1,227 @@
+*{
+  font-family: sans-serif;
+  margin:0;
+  background-color: black;
+  box-sizing: border-box;
+}
+p{
+  color: white;
+  font-style: verdana;
+  font-size: 150%;
+}
+h1{
+  color: white;
+  font-size: verdana
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/*--------------------------------*/
+/*             NAVBAR             */
+/*--------------------------------*/
+
+.navbar{
+  width: 100%;
+  text-align: center;
+  height: 10vh;
+  padding-top: 3.9vh;
+}
+
+.navbar ul{
+  text-align: center;
+  padding-right: 5%;
+}
+
+.navbar li{
+  margin-left: 3%;
+  display: inline;
+  list-style: none;
+  padding-right: 5%;
+  font-size: 2.5vw;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-left: solid 3px white;
+  padding-left: 1%;
+}
+
+.navbar a:hover{
+  border-bottom: solid 3px white;
+  border-radius: 5%;
+  border-left: solid 3px black;
+  border-color:;
+  transition: 0.3s;
+  color: white;
+}
+
+/*--------------------------------*/
+/*            BAKGRNN             */
+/*--------------------------------*/
+
+
+.Bakgrunn img{
+  width: 100%;
+  padding-bottom: 2%;
+}
+/*--------------------------------*/
+/*            about               */
+/*--------------------------------*/
+.about p{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 10%;
+  margin-bottom: 10%;
+
+
+
+}
+.about h1{
+  font-size: 350%;
+  text-align: center;
+  border-top: solid 2px white;
+
+}
+.Order p{
+  width: 80%;
+  text-align: center;
+  padding-top: 10%;
+  margin-left: 10%;
+  padding-bottom: 20%
+
+
+}
+.Order h1{
+  font-size: 350%;
+  text-align: center;
+  border-top: solid 2px white ;
+  margin-top: 50%;
+
+}
+
+
+/*--------------------------------*/
+/*            MENU                */
+/*--------------------------------*/
+
+.TheProblem h1{
+  font-size: 3vw;
+  border-top: solid 2px white;
+
+}
+
+.TheProblem p{
+  float: left;
+  width: 40%;
+  padding-top: 5%;
+  margin-left: 10%;
+  font-size: 2.0vw;
+  padding-bottom: 2%;
+}
+
+.TheProblem h1{
+  padding-bottom: 10%;
+  text-align:center;
+  font-size: 350%
+}
+
+.TheProblem h2{
+  color: white;
+  margin-left: 10%;
+  font-size: 150%
+
+}
+
+.TheProblem img{
+  float: left;
+  margin-right: 10%;
+  width: 40%;
+  padding-bottom:  10%;
+  padding-bottom: 10%;
+}
+
+/*--------------------------------*/
+/*              IDE               */
+/*--------------------------------*/
+
+
+.Idea h1{
+
+font-size: 150%;
+margin-left: 10%
+
+}
+
+.Idea p{
+  padding-top: 2%;
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  margin-right: %;
+  font-size: 2.0vw;
+  padding-bottom: 2%;
+}
+
+.Idea img{
+  float: left;
+  margin-right: 10%;
+  width: 40%;
+  padding-bottom: 10%;
+}
+
+/*--------------------------------*/
+/*            CONTACT             */
+/*--------------------------------*/
+
+.social{
+  background-color: black;;
+}
+
+.contact{
+  text-align: center;
+    background-color: black;
+}
+
+.contact img{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 5%;
+}
+
+.contact h1{
+  font-size: 3.5vw;
+  border-top: solid 2px white;
+}
+
+.contact p{
+  padding-top: 1vw;
+  font-size: 1vw;
+  padding-bottom: 1%;
+  background-color: black;;
+}
+
+.disclaimer{
+  background-color: black;;
+  padding: 1vw;
+  font-size: 1vw;
+  color: white;
+}
+
+.disclaimer a{
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 800px){
+
+p {
+  font-size: 150%;
+}
+}
